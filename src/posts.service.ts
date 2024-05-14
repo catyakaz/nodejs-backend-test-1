@@ -28,8 +28,4 @@ export class PostsService {
   find(postId: string) {
     return this.posts.find(({ id }) => id === postId);
   }
-
-  getAll(): Post[] {
-    return this.posts;
-  }
 }
